@@ -49,7 +49,7 @@ def calculate_cost(total_inr: float, markup_pct: float):
 # -------------------------
 # App start
 # -------------------------
-st.title("📊 Ad Cost & Subscription Calculator")
+st.title("📊 Sales Team Ad Cost Planner")
 
 # Load once
 cpv_lookup = load_cpvs(CPV_FILE)
