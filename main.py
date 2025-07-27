@@ -4,8 +4,9 @@ import pandas as pd
 # -------------------------
 # Hard‑coded file paths
 # -------------------------
-CPV_FILE = r"C:\Users\Asus\Downloads\Cost_Conv Location Wise - March to May 27th 2025 - Countrywise Avg Cpv - Infeed + Instream.csv"
-CPS_FILE = r"C:\Users\Asus\Downloads\Cost_Conv Location Wise - March to May 27th 2025 - Cost_Conv Location Wise - March to May 27th 2025.csv"
+CPV_FILE = "data/Cost_Conv_Location_CPV.csv"
+CPS_FILE = "data/Cost_Conv_Location_CPS.csv"
+
 
 INR_TO_USD = 1 / 85
 
