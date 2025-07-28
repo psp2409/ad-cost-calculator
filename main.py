@@ -103,7 +103,7 @@ if st.button("Calculate"):
 
     try:
         if mode == "Worldwide":
-            cpv, cps = 0.22, 6.5
+            cpv, cps = 0.20, 6.0
             vc, sc = views*cpv, total_subs*cps
             cost_inr, total_views = vc+sc, views
             breakdown += [
